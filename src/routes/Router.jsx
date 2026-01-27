@@ -1,8 +1,11 @@
 import { Routes } from 'react-router-dom'
+import { Route } from 'react-router-dom'
+import Login from '../pages/login.jsx'
 
 export default function Router() {
   return (
-      <Routes>
+    <Routes>
+      <Route path="/login" element={<Login />} />
     </Routes>
   )
 }
